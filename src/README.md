@@ -30,3 +30,7 @@ Below is an example of a sample run:
 ### Input:
 ```plaintext
 "I feel overwhelmed and stressed."
+
+### Samples run:
+"![Description](relative/path/to/image.png)"
+
