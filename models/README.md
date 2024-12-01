@@ -25,7 +25,7 @@ This folder contains the trained machine learning models and supporting vectoriz
 
 ## Notes
 - **Usage**:
-  - Load the TF-IDF vectorizer and the stacking classifier into the notebook called `Deployment_Emotion_Classification_Recommendation_System` under `Deployment folder` to predict emotions and recommend mental health tips.
+  - Load the TF-IDF vectorizer and the stacking classifier into the notebook called `Deployment_Emotion_Classification_Recommendation_System` under `src folder` to predict emotions and recommend mental health tips.
 - **File Structure**:
   - The vectorizer and model are stored as serialized files (`.pkl` or `joblib`) for efficient loading.
 - **Dependencies**:
