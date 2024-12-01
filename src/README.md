@@ -27,11 +27,18 @@ This folder contains the code for deploying the emotion classification system us
 ## Sample Run
 Below is an example of a sample run:
 
-### Input:
-```plaintext
-"I feel overwhelmed and stressed."
 
-### Samples run:
-```plaintext
-"![Description](samples/Boredom.png)"
+### Explanation of the Code:
+- `![Sample Run]`: This is the syntax to add an image in Markdown.
+- `(samples/Boredom.png)`: This is the relative path to the image file in your repository. Ensure the file is located in the `samples` folder.
+
+---
+
+### Steps to Ensure It Works:
+1. Make sure the `samples/Boredom.png` file is added to your repository and pushed to GitHub.
+2. Verify the folder structure in your GitHub repository matches the path (`samples/Boredom.png`).
+3. Preview the **README.md** file on GitHub to confirm the image displays correctly.
+
+Would you like further assistance with this or additional edits to the README?
+
 
