@@ -48,7 +48,7 @@ The project follows the following methodology to achieve emotion classification 
    - The deployment system uses **OpenAI API** for recommending mental health resources based on detected emotions.
 
 ### Methodology Diagram:
-![Methodology Diagram](samples/methodology.png)
+![Methodology Diagram](Methodology.png)
 
 ---
 
