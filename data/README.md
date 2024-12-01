@@ -52,8 +52,8 @@ This folder contains all the datasets used for the emotion analysis project. The
 - The augmented dataset is the most balanced and is recommended for model training.
 
 ## Usage
-- Use the 'ISEAR_cleaned.csv' for the notebook 1
-- Use the `Go_Emotions_11_Emotions_Cleaned.csv' for 
-- Use the `Combined_Emotion_Dataset.csv` for
-- Use the `Augmented_Emotion_Dataset.csv` are ready for model input.
-
+- Use the `ISEAR_dataset.csv` for the notebook 1
+- Use the `Go_Emotions_11_Emotions_Cleaned.csv` for 3
+- Use the `ISEAR_Cleaned.csv` for the notebook 3
+- Use the `Combined_Emotion_Dataset.csv` for the notebooks 4, 5, 6
+- Use the `Augmented_Emotion_Dataset.csv` for the notebooks 7(a,b), 8(a,b), 9(a,b), 10(a,b), 11(a,b), 12(a,b), 13 
