@@ -20,29 +20,16 @@ This folder contains the trained machine learning models and supporting vectoriz
 - **Size**: 1.5 GB
 - **Link**: [Download the Stacking Classifier](<https://drive.google.com/file/d/1rgNxtmpNlTDEwbhoV2Lfibxlrd-bQ0K7/view?usp=sharing>)
 - **Performance**:
-  - Outperformed individual models (e.g., Random Forest, Gradient Boosting).
-  - Achieved the highest F1 score and accuracy on the test dataset.
+  - Outperformed individual models (e.g., Decision Tree, Logistic Regression).
+  - Achieved the highest F1 score and accuracy on the validation and test dataset.
 
 ## Notes
 - **Usage**:
-  - Load the TF-IDF vectorizer first to transform input text data.
-  - Use the stacking classifier for predictions.
+  - Load the TF-IDF vectorizer and the stacking classifier into the notebook called `Deployment_Emotion_Classification_Recommendation_System` under `Deployment folder` to predict emotions and recommend mental health tips.
 - **File Structure**:
-  - The vectorizer and model are stored as serialized files (`.pkl` or similar format) for efficient loading.
+  - The vectorizer and model are stored as serialized files (`.pkl` or `joblib`) for efficient loading.
 - **Dependencies**:
   - Ensure all dependencies are installed (e.g., scikit-learn, joblib) before using the vectorizer and classifier.
 - **Memory Requirements**:
   - Ensure sufficient memory and disk space to handle the model's size (1.5 GB).
 
-## Instructions to Load the Model and Vectorizer
-
-### Loading the TF-IDF Vectorizer
-```python
-import joblib
-
-# Load the vectorizer
-vectorizer = joblib.load("path_to_vectorizer.pkl")
-
-# Transform input text
-text_data = ["Sample sentence for classification"]
-features = vectorizer.transform(text_data)
