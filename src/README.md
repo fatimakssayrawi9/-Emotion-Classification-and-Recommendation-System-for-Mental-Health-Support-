@@ -32,5 +32,6 @@ Below is an example of a sample run:
 "I feel overwhelmed and stressed."
 
 ### Samples run:
-"![Description](relative/path/to/image.png)"
+```plaintext
+"![Description](samples/Boredom.png)"
 
