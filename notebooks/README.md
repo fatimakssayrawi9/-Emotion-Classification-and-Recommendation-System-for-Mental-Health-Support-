@@ -22,12 +22,12 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ### 4. **Combined_Dataset_11_emotions_Classical_ML_With_Class_Imbalance_SMOTE.ipynb**
 - **Purpose**: Handle class imbalance using SMOTE and evaluate classical models.
 - **Dataset Used**: Combined ISEAR and GoEmotions datasets (balanced using SMOTE).
-- **Description**: Shows improved performance for minority classes while maintaining overall accuracy.
+- **Description**: It didn't show improved performance for minority classes while maintaining overall accuracy.
 
 ### 5. **Combined_Dataset_11_emotions_Classical_ML_With_Class_Imbalance_Class_Weighting.ipynb**
 - **Purpose**: Address class imbalance by applying class weighting during model training.
 - **Dataset Used**: Combined ISEAR and GoEmotions datasets.
-- **Description**: Demonstrates improvements in minority class metrics with weighted models.
+- **Description**: It didn't demonstrates improvement in minority class metrics with weighted models.
 
 ### 6. **Handle_Class_Imbalance_Data_Augmentation_Synonyms_Approach.ipynb**
 - **Purpose**: Augment the dataset using synonym replacement to address class imbalance.
@@ -42,7 +42,7 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ### 7.b **Augmented_Dataset_Ensemble_Classifiers.ipynb**
 - **Purpose**: Train ensemble classifiers (AdaBoost, Gradient Boosting) on the augmented dataset.
 - **Dataset Used**: Augmented dataset.
-- **Description**: Demonstrates better generalization and handling of imbalanced data.
+- **Description**: It didn't demonstrate better generalization and handling of imbalanced data.
 
 ### 8.a **Augmented_Dataset_Logistic_Regression_Train_Val_Test.ipynb**
 - **Purpose**: Train Logistic Regression with train/validation/test splits as a baseline model.
@@ -52,7 +52,7 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ### 8.b **Augmented_Dataset_Logistic_Regression_Hyperparameter_Tuning.ipynb**
 - **Purpose**: Optimize Logistic Regression hyperparameters (e.g., regularization strength, solver) using GridSearchCV.
 - **Dataset Used**: Augmented dataset.
-- **Description**: Improves baseline performance, particularly for minority classes.
+- **Description**: Improves baseline performance a little bit, particularly for minority classes.
 
 ### 9.a **Augmented_Dataset_Naive_Bayes_Train_Val_Test.ipynb**
 - **Purpose**: Train and evaluate Naive Bayes on train/validation/test splits.
@@ -62,7 +62,7 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ### 9.b **Augmented_Dataset_Naive_Bayes_Hyperparameter_Tuning_Cross_Validation.ipynb**
 - **Purpose**: Tune Naive Bayes' smoothing parameter (alpha) using GridSearchCV.
 - **Dataset Used**: Augmented dataset.
-- **Description**: Improves Naive Bayes' performance compared to the baseline.
+- **Description**: Improves Naive Bayes' performance a little bit compared to the baseline.
 
 ### 10.a **Augmented_Dataset_Decision_Tree_Train_Val_Test.ipynb**
 - **Purpose**: Train and evaluate a Decision Tree on train/validation/test splits.
@@ -72,7 +72,7 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ### 10.b **Augmented_Dataset_Decision_Tree_Hyperparameter_Tuning_Cross_Validation.ipynb**
 - **Purpose**: Optimize Decision Tree hyperparameters (e.g., splitting criterion, depth) using GridSearchCV.
 - **Dataset Used**: Augmented dataset.
-- **Description**: Improves performance while reducing overfitting.
+- **Description**: Improves performance a little bit compared to the baseline.
 
 ### 11.a **Augmented_Dataset_Random_Forest_Train_Val_Test.ipynb**
 - **Purpose**: Train and evaluate Random Forest on train/validation/test splits.
@@ -92,7 +92,7 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ### 12.b **Augmented_Dataset_Stacking_Classifier_Hyperparameter_Tuning.ipynb**
 - **Purpose**: Optimize base models and meta-model within the stacking classifier using GridSearchCV.
 - **Dataset Used**: Augmented dataset.
-- **Description**: Shows significant improvements across all metrics with optimized stacking.
+- **Description**: Shows small improvements across all metrics with optimized stacking.
 
 ### 13. **Augmented_Dataset_CNN.ipynb**
 - **Purpose**: Preliminary exploration of a Convolutional Neural Network (CNN) for emotion classification.
@@ -102,4 +102,5 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 ## Notes
 - Each notebook is self-contained and provides insights into the respective experiments and models.
 - Ensure all dependencies (e.g., scikit-learn, TensorFlow) are installed before running the notebooks.
+- Upload the corresponding dataset for each notebook.
 
