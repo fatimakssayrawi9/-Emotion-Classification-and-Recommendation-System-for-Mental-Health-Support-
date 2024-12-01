@@ -26,7 +26,7 @@ The core of the project is a **Stacking Classifier** that combines multiple clas
 
 3. **Augmented Dataset**:
    - Combines the cleaned ISEAR and GoEmotions datasets.
-   - Addressed class imbalance using **SMOTE** and synonym-based augmentation techniques.
+   - Addressed class imbalance using  **synonym-based augmentation techniques**.
    - Includes 11 emotions:
      - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
 
