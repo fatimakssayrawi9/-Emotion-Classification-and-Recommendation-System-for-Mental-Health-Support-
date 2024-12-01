@@ -41,4 +41,6 @@ Below is an example of a sample run:
 
 Would you like further assistance with this or additional edits to the README?
 
+![Sample Run](samples/Boredom.png)
+
 
