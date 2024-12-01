@@ -6,7 +6,7 @@ This folder contains the trained machine learning models and supporting vectoriz
 
 ### 1. **TF-IDF Vectorizer**
 - **Description**: The trained TF-IDF (Term Frequency-Inverse Document Frequency) vectorizer used for converting text data into numerical representations suitable for machine learning models.
-- **Link**: [Download the TF-IDF Vectorizer](<insert-google-drive-link-here>)
+- **Link**: [Download the TF-IDF Vectorizer](<[insert-google-drive-link-here](https://drive.google.com/file/d/1au-rofToOgk8nzLnVoXhWFMNu9zKGfNr/view?usp=sharing)>)
 - **Purpose**:
   - Converts raw text into a sparse matrix of TF-IDF features.
   - Ensures consistent text processing for the trained stacking classifier.
@@ -18,7 +18,7 @@ This folder contains the trained machine learning models and supporting vectoriz
   - Uses the TF-IDF vectorizer as input for predictions.
   - Handles class imbalance effectively due to data augmentation and weighted learning techniques.
 - **Size**: 1.5 GB
-- **Link**: [Download the Stacking Classifier](<insert-google-drive-link-here>)
+- **Link**: [Download the Stacking Classifier](<https://drive.google.com/file/d/1rgNxtmpNlTDEwbhoV2Lfibxlrd-bQ0K7/view?usp=sharing>)
 - **Performance**:
   - Outperformed individual models (e.g., Random Forest, Gradient Boosting).
   - Achieved the highest F1 score and accuracy on the test dataset.
