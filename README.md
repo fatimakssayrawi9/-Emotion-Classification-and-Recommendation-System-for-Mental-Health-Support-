@@ -49,6 +49,31 @@ The project follows the following methodology to achieve emotion classification 
      - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
 
 ---
+Reproducing the Code
+You can reproduce the results of this project using one of the following methods:
+
+**Option 1: Run on Google Colab**
+1. Access the Google Drive Folder: The Google Drive folder contains all the Colab notebooks and datasets required for this project. You can access it via the shared link: [[Insert Google Drive Link Here](https://drive.google.com/drive/folders/1KCZBJ4276N-VsQiteO_3vsbHFFkUrQ5R?usp=sharing)].
+2. Select a Notebook: Choose the notebook you wish to run. Each notebook in the folder is labeled clearly, and the corresponding dataset(s) required are mentioned in the notebook.
+3. Upload the Dataset(s): Before running the notebook, upload the dataset(s) specified in the notebook instructions folder.
+4. Run the Notebook: Follow the step-by-step instructions in the selected notebook to reproduce the results.
+
+
+**Option 2: Clone the Repository and Run Locally**
+1. Clone the Repository:
+
+Clone the project repository to your local machine:
+plaintext
+
+2. Set up a virtual environment and install dependencies as specified in the "requirements.txt" file
+3. Navigate to the "notebooks" folder and open the desired notebook using Jupyter Notebook or JupyterLab:
+jupyter notebook notebooks/<notebook_name>.ipynb
+5. Upload the dataset(s) mentioned in the notebook into the required folder or use the ones in the "data" directory.
+6. Run the notebook step by step to reproduce the results.
+
+---
+
+
 ## Run the Deployment Notebook
 To deploy the emotion classification system:
 
