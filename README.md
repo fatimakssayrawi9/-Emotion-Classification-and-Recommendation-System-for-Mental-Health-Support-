@@ -71,7 +71,9 @@ cd emotion-classification
 
 2. Set up a virtual environment and install dependencies as specified in the "requirements.txt" file
 3. Navigate to the "notebooks" folder and open the desired notebook using Jupyter Notebook or JupyterLab:
+```plaintext
 jupyter notebook notebooks/<notebook_name>.ipynb
+```
 5. Upload the dataset(s) mentioned in the notebook into the required folder or use the ones in the "data" directory.
 6. Run the notebook step by step to reproduce the results.
 
