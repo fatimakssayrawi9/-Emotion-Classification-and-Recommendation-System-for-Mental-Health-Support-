@@ -65,7 +65,7 @@ You can reproduce the results of this project using one of the following methods
 
 Clone the project repository to your local machine:
 ```plaintext
-git clone [https://github.com/your-repo/emotion-classification.git](https://github.com/fatimakssayrawi9/Emotion-Classification-and-Recommendation-System-for-Mental-Health-Support-.git)
+git clone https://github.com/fatimakssayrawi9/Emotion-Classification-and-Recommendation-System-for-Mental-Health-Support-.git
 cd emotion-classification
 ```
 
