@@ -5,32 +5,6 @@ This project focuses on emotion classification using text data and provides reco
 
 The core of the project is a **Stacking Classifier** that combines multiple classical models, delivering robust performance. The model was trained on an augmented dataset combining the ISEAR and GoEmotions datasets.
 
----
-
-## Final Model and Dataset
-### **Final Model:**
-- **Stacking Classifier**:
-  - Base Models: Logistic Regression, Naive Bayes, Decision Tree, Random Forest.
-  - Meta-Model: Logistic Regression.
-  - Training and validation were performed using hyperparameter tuning to achieve optimal results.
-  - The final model was saved using **joblib** for efficient deployment.
-
-### **Dataset Used:**
-1. **ISEAR Dataset**:
-   - Contains text samples labeled with seven emotions (e.g., joy, fear, anger).
-   - Balanced and preprocessed for training.
-
-2. **GoEmotions Dataset**:
-   - Originally multi-label and with 28 emotions.
-   - Transformed into 11 emotions and integrated with ISEAR.
-
-3. **Augmented Dataset**:
-   - Combines the cleaned ISEAR and GoEmotions datasets.
-   - Addressed class imbalance using  **synonym-based augmentation techniques**.
-   - Includes 11 emotions:
-     - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
-
----
 
 ## Methodology
 The project follows the following methodology to achieve emotion classification and provide recommendations:
@@ -95,8 +69,33 @@ emotion-classification/
 ├── README.md                              # Main project description
 └── requirements.txt                       # List of required dependencies
 
+
 ---
 
+## Final Model and Dataset
+### **Final Model:**
+- **Stacking Classifier**:
+  - Base Models: Logistic Regression, Naive Bayes, Decision Tree, Random Forest.
+  - Meta-Model: Logistic Regression.
+  - Training and validation were performed using hyperparameter tuning to achieve optimal results.
+  - The final model was saved using **joblib** for efficient deployment.
+
+### **Dataset Used:**
+1. **ISEAR Dataset**:
+   - Contains text samples labeled with seven emotions (e.g., joy, fear, anger).
+   - Balanced and preprocessed for training.
+
+2. **GoEmotions Dataset**:
+   - Originally multi-label and with 28 emotions.
+   - Transformed into 11 emotions and integrated with ISEAR.
+
+3. **Augmented Dataset**:
+   - Combines the cleaned ISEAR and GoEmotions datasets.
+   - Addressed class imbalance using  **synonym-based augmentation techniques**.
+   - Includes 11 emotions:
+     - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
+
+---
 ## Run the Deployment Notebook
 To deploy the emotion classification system:
 
