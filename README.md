@@ -119,8 +119,3 @@ emotion-classification/
 ├── Metholodogy.png                        # Methodology of the project
 ├── README.md                              # Main project description
 └── requirements.txt                       # List of required dependencies
-
-
----
-
-
