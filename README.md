@@ -95,6 +95,7 @@ emotion-classification/
 ├── README.md                              # Main project description
 └── requirements.txt                       # List of required dependencies
 
+---
 
 ## Run the Deployment Notebook
 To deploy the emotion classification system:
