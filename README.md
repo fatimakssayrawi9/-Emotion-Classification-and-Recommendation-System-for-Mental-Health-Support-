@@ -67,12 +67,26 @@ emotion-classification/
 │   ├── tfidf_vectorizer.pkl               # TF-IDF vectorizer used for model input
 │   └── README.md                          # Description of models and usage
 ├── notebooks/
-│   ├── 1.ISEAR_Dataset.ipynb              # Analysis and experiments on the ISEAR dataset
-│   ├── 2.GoEmotions_Dataset.ipynb         # Preprocessing and cleaning GoEmotions dataset
-│   ├── 3.Combined_Dataset_Classical_ML.ipynb # Experiments using classical models on combined dataset
-│   ├── 4.Augmented_Dataset_SMOTE.ipynb    # Handling imbalance using SMOTE and data augmentation
-│   ├── 5.Stacking_Classifier_Deployment.ipynb # Experiments with stacking classifier
-│   └── README.md                          # Description of notebooks
+│   ├── 1.ISEAR_Dataset.ipynb              # Analysis and experiments on ISEAR dataset
+│   ├── 2.GoEmotions_Dataset.ipynb         # Cleaning and preprocessing GoEmotions dataset
+│   ├── 3.Combined_Dataset_11_emotions_Classical_ML_Without_Class_Imbalance.ipynb
+│   ├── 4.Combined_Dataset_11_emotions_Classical_ML_With_Class_Imbalance_SMOTE.ipynb
+│   ├── 5.Combined_Dataset_11_emotions_Classical_ML_With_Class_Imbalance_Class_Weighting.ipynb
+│   ├── 6.Handle_Class_Imbalance_Data_Augmentation_Synonyms_Approach.ipynb
+│   ├── 7.a.Augmented_Dataset_Classical_ML_Train_Test.ipynb
+│   ├── 7.b.Augmented_Dataset_Ensemble_Classifiers.ipynb
+│   ├── 8.a.Augmented_Dataset_Logistic_Regression_Train_Val_Test.ipynb
+│   ├── 8.b.Augmented_Dataset_Logistic_Regression_Hyperparameter_Tuning_Cross_Validation.ipynb
+│   ├── 9.a.Augmented_Dataset_Naive_Bayes_Train_Val_Test.ipynb
+│   ├── 9.b.Augmented_Dataset_Naive_Bayes_Hyperparameter_Tuning_Cross_Validation.ipynb
+│   ├── 10.a.Augmented_Dataset_Decision_Tree_Train_Val_Test.ipynb
+│   ├── 10.b.Augmented_Dataset_Decision_Tree_Hyperparameter_Tuning_Cross_Validation.ipynb
+│   ├── 11.a.Augmented_Dataset_Random_Forest_Train_Val_Test.ipynb
+│   ├── 11.b.Augmented_Dataset_Random_Forest_Hyperparameter_Tuning_Cross_Validation_Train_Val_Test.ipynb
+│   ├── 12.a.Augmented_Dataset_Stacking_Classifier_Base_Models.ipynb
+│   ├── 12.b.Augmented_Dataset_Stacking_Classifier_Hyperparameter_Tuning.ipynb
+│   ├── 13.Augmented_Dataset_CNN.ipynb
+│   └── README.md                           # Description of notebooks
 ├── src/
 │   ├── Emotion_Classification_Deployment.ipynb # Deployment code for emotion classification
 │   ├── Joy.png                            # Sample run of the output
