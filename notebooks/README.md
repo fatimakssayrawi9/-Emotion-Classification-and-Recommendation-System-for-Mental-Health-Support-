@@ -99,8 +99,11 @@ This folder contains all the Jupyter notebooks used to experiment with various d
 - **Dataset Used**: Augmented dataset.
 - **Description**: Demonstrates potential for deep learning approaches in emotion classification, with promising results.
 
+### Usage
+- Upload the corresponding dataset for each notebook and run the code
+- Datasets exist in the folder called **data**
+
 ## Notes
 - Each notebook is self-contained and provides insights into the respective experiments and models.
 - Ensure all dependencies (e.g., scikit-learn, TensorFlow) are installed before running the notebooks.
-- Upload the corresponding dataset for each notebook.
 
