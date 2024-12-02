@@ -81,7 +81,7 @@ jupyter notebook notebooks/<notebook_name>.ipynb
 
 
 ## Run the Deployment Notebook
-To deploy the emotion classification system:
+To deploy the emotion classification and recommendation system for mental health support:
 
 1. Navigate to the src folder and open Emotion_Classification_Deployment.ipynb using Jupyter Notebook or Google Colab.
 2. Nagivate to the API Key section and change it to your own key (send me an email if you don't have a key)
