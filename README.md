@@ -96,5 +96,15 @@ emotion-classification/
 └── requirements.txt                       # List of required dependencies
 
 
+## Run the Deployment Notebook
+To deploy the emotion classification system:
 
+1. Navigate to the src folder and open Emotion_Classification_Deployment.ipynb using Jupyter Notebook or Google Colab.
+2. Nagivate to the API Key section and change it to your own key (send me an email if you don't have a key)
+3. Run All Cells
+4. Execute all the cells in the notebook. The deployment is pre-configured, so no additional file uploads are required.
+5. Input Your Text: When prompted, enter a sentence describing your feelings (e.g., "I feel stressed and overwhelmed").
+6. Results: The system will:
+            Predict the emotion (e.g., "Sadness").
+            Provide relevant mental health resources.
 
