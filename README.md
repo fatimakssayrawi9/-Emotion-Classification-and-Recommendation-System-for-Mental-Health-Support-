@@ -25,6 +25,42 @@ The project follows the following methodology to achieve emotion classification 
 ![Methodology Diagram](Methodology.png)
 
 ---
+## Final Model and Dataset
+### **Final Model:**
+- **Stacking Classifier**:
+  - Base Models: Logistic Regression, Naive Bayes, Decision Tree, Random Forest.
+  - Meta-Model: Logistic Regression.
+  - Training and validation were performed using hyperparameter tuning to achieve optimal results.
+  - The final model was saved using **joblib** for efficient deployment.
+
+### **Dataset Used:**
+1. **ISEAR Dataset**:
+   - Contains text samples labeled with seven emotions (e.g., joy, fear, anger).
+   - Balanced and preprocessed for training.
+
+2. **GoEmotions Dataset**:
+   - Originally multi-label and with 28 emotions.
+   - Transformed into 11 emotions and integrated with ISEAR.
+
+3. **Augmented Dataset**:
+   - Combines the cleaned ISEAR and GoEmotions datasets.
+   - Addressed class imbalance using  **synonym-based augmentation techniques**.
+   - Includes 11 emotions:
+     - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
+
+---
+## Run the Deployment Notebook
+To deploy the emotion classification system:
+
+1. Navigate to the src folder and open Emotion_Classification_Deployment.ipynb using Jupyter Notebook or Google Colab.
+2. Nagivate to the API Key section and change it to your own key (send me an email if you don't have a key)
+3. Run All Cells
+4. Execute all the cells in the notebook. The deployment is pre-configured, so no additional file uploads are required.
+5. Input Your Text: When prompted, enter a sentence describing your feelings (e.g., "I feel stressed and overwhelmed").
+6. Results: The system will:
+            Predict the emotion (e.g., "Sadness").
+            Provide relevant mental health resources.
+---
 
 ## Project Structure
 ```plaintext
@@ -72,39 +108,4 @@ emotion-classification/
 
 ---
 
-## Final Model and Dataset
-### **Final Model:**
-- **Stacking Classifier**:
-  - Base Models: Logistic Regression, Naive Bayes, Decision Tree, Random Forest.
-  - Meta-Model: Logistic Regression.
-  - Training and validation were performed using hyperparameter tuning to achieve optimal results.
-  - The final model was saved using **joblib** for efficient deployment.
-
-### **Dataset Used:**
-1. **ISEAR Dataset**:
-   - Contains text samples labeled with seven emotions (e.g., joy, fear, anger).
-   - Balanced and preprocessed for training.
-
-2. **GoEmotions Dataset**:
-   - Originally multi-label and with 28 emotions.
-   - Transformed into 11 emotions and integrated with ISEAR.
-
-3. **Augmented Dataset**:
-   - Combines the cleaned ISEAR and GoEmotions datasets.
-   - Addressed class imbalance using  **synonym-based augmentation techniques**.
-   - Includes 11 emotions:
-     - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
-
----
-## Run the Deployment Notebook
-To deploy the emotion classification system:
-
-1. Navigate to the src folder and open Emotion_Classification_Deployment.ipynb using Jupyter Notebook or Google Colab.
-2. Nagivate to the API Key section and change it to your own key (send me an email if you don't have a key)
-3. Run All Cells
-4. Execute all the cells in the notebook. The deployment is pre-configured, so no additional file uploads are required.
-5. Input Your Text: When prompted, enter a sentence describing your feelings (e.g., "I feel stressed and overwhelmed").
-6. Results: The system will:
-            Predict the emotion (e.g., "Sadness").
-            Provide relevant mental health resources.
 
