@@ -62,6 +62,21 @@ To deploy the emotion classification system:
             Provide relevant mental health resources.
 ---
 
+## Acknowledgments
+We gratefully acknowledge the following resources and tools:
+
+**Datasets:**
+1. ISEAR Dataset for providing high-quality emotion-labeled text data.
+2. GoEmotions Dataset for its large-scale emotion annotations.
+
+
+**Tools and Libraries:**
+1. TensorFlow: For implementing and training models.
+2. scikit-learn: For machine learning experiments.
+3. OpenAI API: For resource recommendations.
+
+--- 
+
 ## Project Structure
 ```plaintext
 emotion-classification/
