@@ -75,9 +75,12 @@ emotion-classification/
 │   └── README.md                          # Description of notebooks
 ├── src/
 │   ├── Emotion_Classification_Deployment.ipynb # Deployment code for emotion classification
-│   ├── samples/
-│   │   ├── Boredom.png                    # Example output for Boredom emotion
-│   │   └── methodology.png                # Methodology diagram for the project
+│   ├── Joy.png                            # Sample run of the output
 │   └── README.md                          # Description of deployment process
+├── Metholodogy.png                        # Methodology of the project
 ├── README.md                              # Main project description
 └── requirements.txt                       # List of required dependencies
+
+
+
+
