@@ -67,6 +67,7 @@ Clone the project repository to your local machine:
 ```plaintext
 git clone https://github.com/your-repo/emotion-classification.git
 cd emotion-classification
+```
 
 2. Set up a virtual environment and install dependencies as specified in the "requirements.txt" file
 3. Navigate to the "notebooks" folder and open the desired notebook using Jupyter Notebook or JupyterLab:
