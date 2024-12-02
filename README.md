@@ -49,7 +49,8 @@ The project follows the following methodology to achieve emotion classification 
      - Joy, Sadness, Anger, Fear, Shame, Disgust, Guilt, Neutral, Surprise, Confusion, and Boredom.
 
 ---
-Reproducing the Code
+## Reproducing the Code
+
 You can reproduce the results of this project using one of the following methods:
 
 **Option 1: Run on Google Colab**
