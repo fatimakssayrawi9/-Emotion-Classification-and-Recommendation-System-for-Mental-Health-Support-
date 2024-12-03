@@ -84,11 +84,12 @@ jupyter notebook notebooks/<notebook_name>.ipynb
 To deploy the emotion classification and recommendation system for mental health support:
 
 1. Navigate to the src folder and open Emotion_Classification_Deployment.ipynb using Jupyter Notebook or Google Colab.
-2. Nagivate to the API Key section and change it to your own key (send me an email if you don't have a key)
-3. Run All Cells
-4. Execute all the cells in the notebook. The deployment is pre-configured, so no additional file uploads are required.
-5. Input Your Text: When prompted, enter a sentence describing your feelings (e.g., "I feel stressed and overwhelmed").
-6. Results: The system will:
+2. Downolad the Stacking Classifier model and TfIDf Vectorizer from Google Drive using the links provided in **models** folder and upload them into the Google Colab Notebook
+3. Nagivate to the API Key section and change it to your own key (send me an email if you don't have a key)
+4. Run All Cells
+5. Execute all the cells in the notebook. The deployment is pre-configured, so no additional uploads are required.
+6. Input Your Text: When prompted, enter a sentence describing your feelings (e.g., "I feel stressed and overwhelmed").
+7. Results: The system will:
             Predict the emotion (e.g., "Sadness").
             Provide relevant mental health resources.
 
