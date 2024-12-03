@@ -98,7 +98,7 @@ To deploy the emotion classification and recommendation system for mental health
 
 ### Presentation 
 
-If you want to understand the flow of the project, you can check my presentation [[Presentation Link Here]([https://docs.google.com/presentation/d/1E5Ejbi42q2gxjDXSAMSKV4o0lG50A-26/edit?usp=sharing&ouid=110028007073741829415&rtpof=true&sd=true)].
+If you want to understand the flow of the project, you can check my presentation [[Presentation Link Here](https://docs.google.com/presentation/d/1E5Ejbi42q2gxjDXSAMSKV4o0lG50A-26/edit?usp=sharing&ouid=110028007073741829415&rtpof=true&sd=true)].
 
 ---
 ## Project Structure
