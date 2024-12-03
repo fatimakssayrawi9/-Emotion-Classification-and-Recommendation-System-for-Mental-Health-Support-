@@ -18,10 +18,11 @@ This folder contains the code for deploying the emotion classification system us
 
 ## How to Use
 1. Open the notebook in Google Colab.
-2. Create an API key and replace it in its placeholder (if you don't have one, I can share with u my secret key to run the code)
-3. Run all cells in the notebook.
-4. When prompted, enter a text input describing your feelings (e.g., "I feel so anxious about work").
-5. The system will:
+2. Downolad the Stacking Classifier model and TfIDf Vectorizer from Google Drive using the links provided in **models** folder and upload them into the Colab Notebook
+3. Create an API key and replace it in its placeholder (if you don't have one, I can share with u my secret key to run the code)
+4. Run all cells in the notebook.
+5. When prompted, enter a text input describing your feelings (e.g., "I feel so anxious about work").
+6. The system will:
    - Predict your emotion.
    - Recommend mental health resources tailored to your emotion.
 
